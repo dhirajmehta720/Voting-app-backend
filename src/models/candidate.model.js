@@ -9,10 +9,6 @@ const candidateSchema = new mongoose.Schema({
     type: stringify,
     required: true,
   },
-  age: {
-    type: Number,
-    required: true,
-  },
   votes: [
     {
       user: {
