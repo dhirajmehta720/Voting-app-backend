@@ -6,7 +6,7 @@ const candidateSchema = new mongoose.Schema({
     required: true,
   },
   party: {
-    type: stringify,
+    type: String,
     required: true,
   },
   votes: [
